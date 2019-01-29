@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Шашки</title>
+    <script src="scriptForCookie.js"></script>
+    <style>
+        p {
+            margin: 2px;
+            font-size: 30px;
+        }
+        tr td {
+            width: 50px;
+            height: 50px;
+        }
+        tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even){
+            background-color: #ffe577;
+        }
+        tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+            background-color: #bd6400;
+        }
+        figure {
+            display: block;
+            margin: 5px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
